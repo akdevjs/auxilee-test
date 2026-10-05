@@ -1,0 +1,3 @@
+"use client";
+import Link from "next/link";
+export default function Error({ reset }: { error: Error; reset: () => void }){return <main className="flex min-h-screen flex-col items-center justify-center bg-background px-5 text-center text-foreground"><h1 className="font-display text-3xl">This page didn’t load.</h1><p className="mt-4 text-muted-foreground">Please try again or return to the homepage.</p><div className="mt-8 flex gap-3"><button onClick={reset} className="bg-primary px-5 py-3 text-primary-foreground">Try again</button><Link href="/" className="border border-border px-5 py-3">Go home</Link></div></main>;}
