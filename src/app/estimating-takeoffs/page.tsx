@@ -5,12 +5,12 @@ export const metadata = createPageMetadata({
   description:
     "Detailed construction takeoffs and cost estimating support for residential, multifamily, and light commercial contractors.",
   path: "/estimating-takeoffs",
-  image: "/assets/production-estimating.webp",
+  image: "/assets/production-construction.webp",
 });
 
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-const hero = "/assets/production-estimating.webp";
+const hero = "/assets/production-construction.webp";
 import { FAQBlock } from "@/components/marketing";
 import { Header } from "@/components/site";
 import { Footer, Label } from "@/components/site-content";
