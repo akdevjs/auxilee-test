@@ -19,7 +19,7 @@ import { Button } from "@/components/ui/button";
 const pipelineScenarios = [
   [
     "You're Still Doing the Estimating Yourself",
-    "The takeoffs, pricing, revisions and bid deadlines all land on your desk. Every hour you spend estimating is an hour you're not spending running jobs, talking with clients, developing new opportunities — or getting your nights and weekends back. You don't necessarily need a full-time estimator. You need someone reliable who can take estimating work off your plate.",
+    "The takeoffs, pricing, revisions and bid deadlines all land on your desk. Every hour you spend estimating is an hour you're not spending running jobs, talking with clients, developing new opportunities — or getting your nights and weekends back. You don't necessarily need a Full-time (40hrs/week)  estimator. You need someone reliable who can take estimating work off your plate.",
   ],
   [
     "You Have an Estimator. They're Just at Capacity",
@@ -65,7 +65,7 @@ const tiers = [
   ],
   [
     "Dedicated Estimating Support",
-    "For growing contractors who need substantial, consistent estimating capacity. Add a more dedicated estimating resource that works as an extension of your team — without building out another full-time internal position.",
+    "For growing contractors who need substantial, consistent estimating capacity. Add a more dedicated estimating resource that works as an extension of your team — without building out another Full-time (40hrs/week)  internal position.",
   ],
 ] as const;
 
@@ -155,7 +155,7 @@ export default function EstimatingTakeoffsPage() {
               Construction Takeoffs &amp; Cost Estimating Services
             </h1>
             <p className="mt-6 max-w-[44rem] font-display text-[1.2rem] leading-7 text-primary-foreground/90">
-              More estimating capacity without another full-time hire.
+              More estimating capacity without another Full-time (40hrs/week) hire.
             </p>
             <p className="mt-5 max-w-[46rem] text-[1rem] leading-8 text-primary-foreground/70 md:text-[1.05rem]">
               Whether you're estimating every project yourself, your in-house estimator is stretched
@@ -360,7 +360,7 @@ export default function EstimatingTakeoffsPage() {
           </h2>
           <p className="mt-6 max-w-[54rem] text-lg leading-8 text-muted-foreground">
             Auxilee is a good fit for contractors who need more estimating capacity — without
-            automatically adding another full-time person to the team.
+            automatically adding another Full-time (40hrs/week) person to the team.
           </p>
         </div>
       </section>

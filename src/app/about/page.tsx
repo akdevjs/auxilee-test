@@ -22,7 +22,7 @@ const expectations = [
   },
   {
     title: "More Capacity Without More Overhead",
-    copy: "Get experienced support where your team needs it without automatically adding another full-time position for every function.",
+    copy: "Get experienced support where your team needs it without automatically adding another Full-time (40hrs/week)  position for every function.",
   },
   {
     title: "Fewer People and Providers to Manage",

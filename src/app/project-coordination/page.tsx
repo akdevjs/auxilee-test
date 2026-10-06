@@ -69,12 +69,12 @@ const scenarios = [
 
 const tiers = [
   [
-    "Part-Time Project Coordination",
-    "Additional support without adding a full-time position. A good fit when your PM or project team needs consistent help with coordination, documentation and follow-through, but you don't need a full-time resource.",
+    "Part-time (20hrs/week)  Project Coordination",
+    "Additional support without adding a Full-time (40hrs/week)  position. A good fit when your PM or project team needs consistent help with coordination, documentation and follow-through, but you don't need a Full-time (40hrs/week)  resource.",
   ],
   [
-    "Full-Time Project Coordination",
-    "Dedicated coordination capacity for a busy or growing project team. A full-time resource who can become more deeply integrated into your day-to-day workflow and support multiple active projects.",
+    "Full-time (40hrs/week)  Project Coordination",
+    "Dedicated coordination capacity for a busy or growing project team. A Full-time (40hrs/week)  resource who can become more deeply integrated into your day-to-day workflow and support multiple active projects.",
   ],
 ] as const;
 
@@ -100,8 +100,8 @@ const reasons = [
     "This isn't a task desk where a different person handles your request every time. Your coordinator becomes a dedicated part of your operation — learning your projects, PMs, subcontractors, systems and the way your company works.",
   ],
   [
-    "Part-Time or Full-Time Capacity",
-    "Get the level of support your project team needs without automatically adding another full-time employee to payroll.",
+    "Part-time (20hrs/week)  or Full-time (40hrs/week)  Capacity",
+    "Get the level of support your project team needs without automatically adding another Full-time (40hrs/week)  employee to payroll.",
   ],
   [
     "More Support as Your Business Grows",
@@ -115,9 +115,9 @@ const goodFit = [
   "You're the owner and still carrying too much of the project management and coordination yourself.",
   "Your PMs are stretched thin and important details are starting to fall through the cracks.",
   "You want better project organization, communication and follow-through.",
-  "Your company is growing, but you're not ready to add another full-time project manager.",
+  "Your company is growing, but you're not ready to add another Full-time (40hrs/week)  project manager.",
   "You want a dedicated coordinator who understands construction and can become part of your team.",
-  "You need consistent project coordination support, either part-time or full-time.",
+  "You need consistent project coordination support, either Part-time (20hrs/week)  or Full-time (40hrs/week) .",
 ] as const;
 
 const notFit = [
@@ -151,7 +151,7 @@ const faqs = [
   ],
   [
     "Can one coordinator support multiple projects or project managers?",
-    "Yes, depending on project volume and the level of coordination required. Auxilee can help determine whether part-time or full-time support makes the most sense for your workload.",
+    "Yes, depending on project volume and the level of coordination required. Auxilee can help determine whether Part-time (20hrs/week)  or Full-time (40hrs/week)  support makes the most sense for your workload.",
   ],
   [
     "Is our coordinator dedicated to our company?",
@@ -162,8 +162,8 @@ const faqs = [
     "There will be an onboarding period to learn your company's systems, workflows, active projects and expectations. Because your coordinator already understands construction workflows, the focus can be on learning your business rather than learning construction from scratch.",
   ],
   [
-    "Do we have to hire someone full-time?",
-    "No. Auxilee offers both part-time and full-time dedicated project coordination support, so you can choose the capacity that fits your current workload.",
+    "Do we have to hire someone Full-time (40hrs/week) ?",
+    "No. Auxilee offers both Part-time (20hrs/week)  and Full-time (40hrs/week)  dedicated project coordination support, so you can choose the capacity that fits your current workload.",
   ],
 ] as const;
 
@@ -344,7 +344,7 @@ export default function ProjectCoordinationPage() {
         <div className="mx-auto max-w-[80rem]">
           <Label>Dedicated capacity</Label>
           <h2 className="max-w-[54rem] font-display text-[2.25rem] leading-tight md:text-[3rem]">
-            Dedicated Support. Part-Time or Full-Time.
+            Dedicated Support. Part-time (20hrs/week) or Full-time (40hrs/week) .
           </h2>
           <p className="mt-6 max-w-[56rem] leading-8 text-muted-foreground">
             Your project coordinator becomes a dedicated extension of your team — learning your
@@ -488,8 +488,8 @@ export default function ProjectCoordinationPage() {
               If your PMs are spending too much time tracking, documenting and following up — or
               your company needs more project capacity without immediately adding another project
               manager — let's talk. We'll learn how your project team works today, where your PMs
-              are losing time, and whether part-time or full-time dedicated coordination support
-              makes sense.
+              are losing time, and whether Part-time (20hrs/week) or Full-time (40hrs/week)
+              dedicated coordination support makes sense.
             </p>
             <p className="mt-6 font-display text-xl leading-8">
               Give your PMs more time to manage the work, serve your clients and keep projects
