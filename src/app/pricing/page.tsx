@@ -86,7 +86,7 @@ export default function Pricing() {
         <div className="mx-auto max-w-[1280px]">
           <Label>Dedicated support seats</Label>
           <h2 className="max-w-4xl font-display text-4xl leading-tight md:text-6xl">
-            Part-time (20hrs/week) or Full-time (40hrs/week) capacity, dedicated to your business.
+            Part-time or Full-time capacity, dedicated to your business.
           </h2>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
             Choose the service and level of support that fits your workload. These dedicated seats

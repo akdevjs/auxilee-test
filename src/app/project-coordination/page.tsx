@@ -100,8 +100,8 @@ const reasons = [
     "This isn't a task desk where a different person handles your request every time. Your coordinator becomes a dedicated part of your operation — learning your projects, PMs, subcontractors, systems and the way your company works.",
   ],
   [
-    "Part-time (20hrs/week)  or Full-time (40hrs/week)  Capacity",
-    "Get the level of support your project team needs without automatically adding another Full-time (40hrs/week)  employee to payroll.",
+    "Part-time or Full-time Capacity",
+    "Get the level of support your project team needs without automatically adding another Full-time employee to payroll.",
   ],
   [
     "More Support as Your Business Grows",
@@ -344,7 +344,7 @@ export default function ProjectCoordinationPage() {
         <div className="mx-auto max-w-[80rem]">
           <Label>Dedicated capacity</Label>
           <h2 className="max-w-[54rem] font-display text-[2.25rem] leading-tight md:text-[3rem]">
-            Dedicated Support. Part-time (20hrs/week) or Full-time (40hrs/week) .
+            Dedicated Support. Part-time or Full-time .
           </h2>
           <p className="mt-6 max-w-[56rem] leading-8 text-muted-foreground">
             Your project coordinator becomes a dedicated extension of your team — learning your
