@@ -234,8 +234,8 @@ export default function Home() {
     <main className="overflow-hidden bg-background text-foreground">
       <Header />
 
-      <section className={`${dark} pt-18`}>
-        <div className="mx-auto grid h-[clamp(600px,calc(100vh-72px),1200px)] max-h-225 max-w-360 md:grid-cols-[1.20fr_.80fr]">
+      <section className={`${dark} pt-18 overflow-hidden`}>
+        <div className="mx-auto grid md:h-[clamp(600px,calc(100vh-72px),1200px)] md:max-h-225 h-auto max-w-360 md:grid-cols-[1.20fr_.80fr]">
           <div className={`split-copy flex flex-col justify-center ${pad} py-20`}>
             <h1 className="max-w-3xl font-display text-[2.25rem] font-medium leading-[1.04] md:text-[2.5rem] lg:text-[2.75rem] xl:text-[3rem]">
               Specialized Business Support for Construction Companies and Real Estate Investors
@@ -263,7 +263,7 @@ export default function Home() {
               fetchPriority="high"
               loading="eager"
               sizes="(min-width: 768px) 50vw, 100vw "
-              className="absolute inset-0 h-full w-full object-cover object-top"
+              className="sm:absolute inset-0 min-h-full w-full object-cover object-top"
             />
           </div>
         </div>
