@@ -282,7 +282,10 @@ export default function Home() {
           </p>
           <div className="mt-16 grid gap-8 md:grid-cols-2">
             {industries.map((c) => (
-              <article key={c.to} className="flex flex-col border border-border bg-card">
+              <article
+                key={c.to}
+                className="flex flex-col border border-border bg-card overflow-hidden"
+              >
                 <Image
                   src={c.img}
                   alt={c.alt}
